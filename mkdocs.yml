@@ -1,0 +1,69 @@
+site_name: AI Hub for High School Teachers
+
+# to modify
+site_url: https://csdiy.wiki/ 
+
+site_author: AI Strategy and Education LLC
+site_description: >-
+  AI Hub for High School Teachers
+
+copyright: Copyright &copy; 2024-present AI Strategy and Education LLC
+
+theme:
+  name: material
+  language: en
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date:
+#   - git-revision-date-localized:
+  - minify:
+      minify_html: true
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+    - Installation: ch1.md

@@ -1,0 +1,8 @@
+mkdocs new .
+mkdocs serve
+
+ref
+https://squidfunk.github.io/mkdocs-material/creating-your-site/
+
+
+https://csdiy.wiki/ 
