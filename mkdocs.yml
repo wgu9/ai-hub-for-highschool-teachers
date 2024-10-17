@@ -30,8 +30,10 @@ theme:
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
+
     - navigation.sections
-    - navigation.tabs
+
+  #   - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -122,13 +124,12 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Getting started:
-    - setup/index.md
-    - Installation: setup/ch0.md
-    - Extensions:
-      - setup/extensions/index.md
-      - Extensions2: setup/ch1.md
-      - Extensions3: setup/ch2.md
-  - Blogs:
-    - blog/index.md
-  - About: index.md
+  - Home: index.md
+  - Essential Highlights: highlights.md
+  - For School Leaders: for-school-leaders.md
+  - AI Literacy & Learning Roadmap: ai-literacy-learning-roadmap.md
+  - Data Management & Privacy: data-management-privacy.md
+  - Regulations & Compliance: regulations-laws.md
+  - Additional Resources: others-miscellaneous.md
+  # - Blogs:
+    # - blog/index.md
