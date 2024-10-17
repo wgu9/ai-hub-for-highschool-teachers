@@ -3,13 +3,30 @@ site_name: AI Hub for High School Teachers
 # to modify
 site_url: https://csdiy.wiki/ 
 
-site_author: AI Strategy and Education LLC
+site_author: Jeremy Gu
 site_description: >-
   AI Hub for High School Teachers
 
-copyright: Copyright &copy; 2024-present AI Strategy and Education LLC
+copyright: Copyright &copy; 2024-present Jeremy Gu
 
 theme:
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   name: material
   language: en
   features:
@@ -24,7 +41,7 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
@@ -32,8 +49,7 @@ theme:
     # - navigation.prune
 
     - navigation.sections
-
-  #   - navigation.tabs
+    # - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -49,10 +65,16 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+
+
 markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+
+extra:
+  status:
+    new: Recently added
 
 plugins:
   - search:
@@ -123,13 +145,27 @@ markdown_extensions:
 
 
 # Page tree
+
 nav:
-  - Home: index.md
-  - Essential Highlights: highlights.md
-  - For School Leaders: for-school-leaders.md
-  - AI Literacy & Learning Roadmap: ai-literacy-learning-roadmap.md
-  - Data Management & Privacy: data-management-privacy.md
-  - Regulations & Compliance: regulations-laws.md
-  - Additional Resources: others-miscellaneous.md
+  - Home: 
+      - index.md
+  - Essential Highlights: 
+      - highlights/index.md
+  - For School Leaders: 
+      - for-school-leaders/index.md
+  - AI Literacy & Learning Roadmap: 
+      - ai-literacy-learning-roadmap/index.md
+  - Data Management & Privacy: 
+      - data-management-privacy/index.md
+  - Regulations & Compliance: 
+      - regulations-laws/index.md
+  - Additional Resources: 
+      - add-res/index.md
+    # - "Misc": 
+    #   - add-res/index.md
   # - Blogs:
-    # - blog/index.md
+  #   - blog/index.md
+  # - Guides:
+  #   - Creating a reproduction: guides/creating-a-reproduction.md
+  # - Community experts program:
+  #   - insiders/community-experts-program/index.md

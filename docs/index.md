@@ -1,4 +1,5 @@
 ---
+
 hide:
   - toc
 ---
@@ -6,7 +7,6 @@ hide:
 # AI Hub For High School Teachers
 
 Welcome to the AI Hub, a comprehensive resource for high school educators looking to integrate AI into their teaching. Our goal is to provide practical tools, guidance, and strategies to help teachers and administrators navigate the ever-evolving landscape of AI in education.
-
 
 <div class="grid cards" markdown>
 
@@ -62,13 +62,13 @@ Welcome to the AI Hub, a comprehensive resource for high school educators lookin
 
     Explore case studies, tools, and trends in AI education, along with other useful resources for teachers.
 
-    [:octicons-arrow-right-24: Access resources][others-miscellaneous]
+    [:octicons-arrow-right-24: Access resources][additional-resources]
 
 </div>
 
-[highlights]: highlights.md
-[for-school-leaders]: for-school-leaders.md
-[ai-literacy-learning-roadmap]: ai-literacy-learning-roadmap.md
-[data-management-privacy]: data-management-privacy.md
-[regulations-laws]: regulations-laws.md
-[others-miscellaneous]: others-miscellaneous.md
+[highlights]: highlights/index.md
+[for-school-leaders]: for-school-leaders/index.md
+[ai-literacy-learning-roadmap]: ai-literacy-learning-roadmap/index.md
+[data-management-privacy]: data-management-privacy/index.md
+[regulations-laws]: regulations-laws/index.md
+[additional-resources]: add-res/index.md
